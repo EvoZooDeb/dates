@@ -1,6 +1,6 @@
 # dates diff
 
-Calculates differences among dates.
+Calculates differences between dates.
 See this examples of usage:
 
 dates.pl 02.1 03.15

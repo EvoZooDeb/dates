@@ -1,0 +1,29 @@
+# dates diff
+
+Calculates differences among dates.
+See this examples of usage:
+
+dates.pl 02.1 03.15
+43
+
+dates.pl 02.1 43
+2016-03-15
+
+dates.pl 2015.02.1 43
+2015-03-16
+
+dates.pl 2015.02.1 -43
+2014-12-20
+
+dates.pl 2015.02.1 9w
+2015-04-05
+
+dates.pl 02-01 9w
+2016-04-04
+
+echo 03.03 03 | dates.pl
+2016-03-06
+
+echo 03.03 03 1|dates.pl
+2016-03-03 plus 3 days is 2016-03-06
+
